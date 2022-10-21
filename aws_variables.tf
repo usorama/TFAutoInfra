@@ -19,12 +19,6 @@ variable "vpc_cidr_block" {
   default = "10.10.0.0/16"
 }
 
-# Subnet Count
-variable "subnets_per_vpc" {
-  type = number
-  default = 6
-}
-
 # Subnet CIDR Blocks
 variable "subnet_cidr_blocks" {
     type = list(string)
