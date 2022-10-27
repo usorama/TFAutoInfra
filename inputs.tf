@@ -20,6 +20,6 @@ variable "aws-private-cidrs" {
 }
 
 variable "aws-public-cidrs" {
-    type = list(string)
-    description = "AWS Public Subnets"  
+  type        = list(string)
+  description = "AWS Public Subnets"
 }
