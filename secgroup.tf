@@ -16,6 +16,6 @@ resource "aws_security_group" "sg_allow_tls" {
   ]
 
   tags = {
-    Name = "sg_allow_tls"
+    Name = "sg_open_mysql"
   }
 }
